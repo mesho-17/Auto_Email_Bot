@@ -1,7 +1,9 @@
 AUTOMAIL BOT
+
 This is a Python program that uses voice recognition to send emails.
 
 REQUIREMENTS
+
 The following libraries must be installed to run this program:
 
 smtplib
@@ -11,6 +13,7 @@ email
 PyQt5
 
 USAGE
+
 Run the program in your command line: python AutomailBot.py
 The Gmail login page will open in a maximized window.
 The program will prompt you to say the name of the person you want to send the email to.
@@ -21,6 +24,7 @@ The program will ask if you want to send more emails. If you say "yes", the prog
 Note: Make sure that you have given app access in your Google account settings and turn on less secure app access for the bot to automatically send emails for you.
 
 FUNCTIONALITY
+
 The program consists of the following functionalities:
 
 Voice recognition: The program uses the speech_recognition library to retrieve the name of the person to send the email to, the subject of the email, and the content of the email.
